@@ -1,0 +1,39 @@
+.color-picker {
+  background-color: rgb(141, 141, 205);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: white;
+}
+
+.color-box {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: pink;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  width: 500px;
+  height: 500px;
+}
+
+.color-box button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.color-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.color-option {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
